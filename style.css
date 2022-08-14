@@ -6,12 +6,17 @@
 .body{
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 
 }
 
 
 .container{
-    margin: 5% auto;
     border-radius: 4%;
     width: 24rem;
     padding-bottom: 1.4rem;
@@ -49,8 +54,7 @@ width: 21.3rem;
 }
 .attribution{
     text-align: center;
-    margin: 1rem;
-
+    margin-top: 2rem;
 }
 a{
     text-decoration: none;
